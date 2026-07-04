@@ -1,0 +1,40 @@
+# ── Python / Django ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+backend/staticfiles/
+backend/media/
+backend/.env
+
+# ── Node / React ─────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# NOTE: backend/dist/ (Vite build output) IS committed so PythonAnywhere
+# can serve it without needing Node.js installed on the server.
+# To regenerate: npm run build  (from the frontend/ directory)
+
+# ── Editor / OS ──────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
